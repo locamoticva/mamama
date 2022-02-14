@@ -23,13 +23,13 @@ engine:                      # Engine settings.
       atomic: # list of book file paths for variant atomic
         - atomic.bin
 #      etc.
-      antichess:
+#      antichess:
         - antichess.bin
-      horde:
+#      horde:
         - horde.bin
-      racingkings:
+#      racingkings:
         - racingKings.bin
-      3check:
+#      3check:
         - threeCheck.bin
       kingofthehill:
         - kingofthehill.bin
@@ -90,11 +90,11 @@ challenge:                   # incoming challenges
 #   - antichess
     - atomic
     - chess960
-    - crazyhouse
-    - horde
+#   - crazyhouse
+#   - horde
     - kingOfTheHill
-    - racingKings
-    - threeCheck
+#   - racingKings
+#   - threeCheck
   time_controls:             # time controls to accept
     - bullet
     - blitz
